@@ -12,19 +12,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- http://code.msdn.microsoft.com/ie/Pinned-Sites-Live-Tiles-d6c99a2f -->
         <!-- Windows Pinned Site Support for Live Tiles -->
-        <meta name="application-name" content="Your Site Name" />
         <meta name="msapplication-allowDomainMetaTags" content="true">
+        <meta name="msapplication-navbutton-color" content="#009900">
 
-        <meta name="msapplication-navbutton-color" content="#DF8523">
-
-        <meta name="msapplication-TileColor" content="#212121" />
-        <meta name="msapplication-TileImage" content="mstile-150x150.png" />
-
-        <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
-        <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
-        <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
-        <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+        <!-- Pinned Site IE11 Code -->
+        <meta name="application-name" content="Contoso" />
+        <meta name="msapplication-config" content="IEconfig.xml" />
+        <!-- End of Pinned Site IE11 Code -->
+        <meta name="msapplication-TileColor" content="#009900" />
+        <meta name="msapplication-TileImage" content="images/mediumtile.png" />
 
         <meta name="msapplication-badge" content="frequency=1440; polling-uri=http://yourdomain.com/polling">
         <meta name="msapplication-notification" content="frequency=1440;polling-uri=http://yourdomain.com/polling; cycle=1" />
@@ -40,8 +38,8 @@
     </head>
     <body>
                     <!--[if lt IE 7]>
-                        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-                    <![endif]-->
+                                    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+                                <![endif]-->
         <!-- Add your site or application content here -->
         <p>Hello world! This is HTML5 Boilerplate.</p>
 
